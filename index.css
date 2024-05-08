@@ -1,0 +1,95 @@
+@import url('https://fonts.cdnfonts.com/css/cursed-timer-ulil');
+
+
+
+
+body {
+    margin: 0;
+    text-align: center;
+    background-color: #081c15;
+    
+
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: #2d6a4f;
+    color: white;
+    margin: 100px;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 4.6px 9.3px 9.3px hsl(0deg 0% 0% / 0.36);
+      
+}
+h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 60px;
+    font-weight: bold;
+    margin: 0;
+    
+}
+
+#home-score, #guest-score{
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    background-color: #0a0001;
+    font-size: 90px;
+    border-radius: 5px;
+    padding: 15px 20px;
+    color: #F94F6D;
+    width: 120px;
+    margin: 20px;
+    box-shadow: 4.6px 9.3px 9.3px hsl(0deg 0% 0% / 0.36);
+}
+
+
+
+.btn-number {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+button { 
+   font-family: 'Cursed Timer ULiL', sans-serif;
+   border: 2px solid #74c69d;
+   background-color: transparent;
+   color: whitesmoke;
+   padding: 5px 10px;
+   font-size: 18px;
+   border-radius: 6px;
+   box-shadow: 4.6px 9.3px 9.3px hsl(0deg 0% 0% / 0.36);
+                                                 
+   
+
+}
+
+button:hover {
+    background-color: #74c69d;
+    color: darkgreen
+}
+
+.box-home {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    /* border: 1px solid white; */
+    padding: 50px;    
+}
+
+.box-guest {
+    display: flex; 
+    flex-direction: column;
+    justify-content: space-around;
+    /* border: 1px solid white; */
+    padding: 50px;
+       
+    
+}
+
+.additional-btns {
+    display: inline-block;
+    
+    
+    
+    
